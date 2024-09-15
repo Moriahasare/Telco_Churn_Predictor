@@ -16,7 +16,7 @@ st.set_page_config(
 
 
 # Loading config file
-with open('./config.yaml', 'r', encoding='utf-8') as file:
+with open('../config.yaml', 'r', encoding='utf-8') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 # Creating the authenticator object
@@ -50,7 +50,7 @@ except RegisterError as e:
     st.error(f"Registration Error: {e}")
 
 # Save the updated configuration file
-with open('./config.yaml', 'w', encoding='utf-8') as file:
+with open('../config.yaml', 'w', encoding='utf-8') as file:
     yaml.dump(config, file, default_flow_style=False)
 
 # Additional UI elements
