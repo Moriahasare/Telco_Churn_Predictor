@@ -29,11 +29,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Copy requirements file and install Python packages
 COPY LP4_STAPP_Requirements.txt ./
-RUN pip3 install --upgrade pip && pip3 install -r LP4_STAPP_Requirements.txt
+RUN pip3 install --upgrade pip && pip3 install -r requirements.txt
 
 
 # Copy the rest of the application code
 COPY ./ ./
 
 # Specify the command to run the application
-CMD [ "streamlit", "run", "Churn_Prediction.py" ]
+CMD [ "streamlit", "run", "00_🚪_Gateway.py" ]
