@@ -20,7 +20,7 @@ invoke_login_widget('Account')
 
 # Load configuration from YAML file
 try:
-    with open('../config.yaml', 'r', encoding='utf-8') as file:
+    with open('./config.yaml', 'r', encoding='utf-8') as file:
         config = yaml.load(file, Loader=SafeLoader)
 except FileNotFoundError:
     st.error("Configuration file not found.")
@@ -146,7 +146,7 @@ except RegisterError as e:
 
 # Save configuration back to YAML file
 try:
-    with open('../config.yaml', 'w', encoding='utf-8') as file:
+    with open('./config.yaml', 'w', encoding='utf-8') as file:
         yaml.dump(config, file, default_flow_style=False)
 except IOError as e:
     st.error(f"Error saving configuration file: {e}")
