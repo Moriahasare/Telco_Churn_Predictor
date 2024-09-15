@@ -28,7 +28,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements file and install Python packages
-COPY LP4_STAPP_Requirements.txt ./
+COPY requirements.txt ./
 RUN pip3 install --upgrade pip && pip3 install -r requirements.txt
 
 
