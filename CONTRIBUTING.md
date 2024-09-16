@@ -26,7 +26,7 @@ Thank you for your interest in contributing to the Churn Predictor App! We welco
 
 ## Code of Conduct
 
-Please note that this project adheres to a [Code of Conduct](https://github.com/Nfayem/Churn_Predictor/blob/DevOps/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report any unacceptable behavior to [sdi@azubiafrica.com](mailto:sdi@azubiafrica.com).
+Please note that this project adheres to a [Code of Conduct](https://github.com/Moriahasare/Telco_Churn_Predictor/blob/main/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report any unacceptable behavior to [sdi@azubiafrica.com](mailto:moriah.asare@azubiafrica.com).
 
 ## How to Contribute
 
@@ -65,7 +65,7 @@ We welcome contributions in the form of code. Before starting, please:
 
 To set up a local development environment:
 
-1. **Fork the Repository**: Fork the [Churn Predictor App repository](https://github.com/Nfayem/Churn_Predictor.git) to your own GitHub account.
+1. **Fork the Repository**: Fork the [Churn Predictor App repository](https://github.com/Moriahasare/Telco_Churn_Predictor.git) to your own GitHub account.
 2. **Clone the Repository**: Clone your fork locally.
    ```bash
    git clone https://github.com/<your-username>/Churn_Predictor.git
@@ -73,7 +73,7 @@ To set up a local development environment:
 3. **Install Dependencies**: Navigate to the project directory and install the required packages.
    ```bash
    cd Churn_Predictor
-   pip install -r LP4_STAPP_requirements.txt
+   pip install -r requirements.txt
    ```
 4. **Run the App Locally**: Start the Streamlit app to ensure everything is working.
    ```bash

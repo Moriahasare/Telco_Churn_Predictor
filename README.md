@@ -55,16 +55,16 @@ To run the Churn Predictor App locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Nfayem/Churn_Predictor.git
-   cd Churn_Predictor
+   git clone https://github.com/Moriahasare/Telco_Churn_Predictor.git
+   cd Telco_Churn_Predictor
    ```
 2. Install the necessary packages:
    ```bash
-   pip install -r LP4_STAPP_requirements.txt
+   pip install -r requirements.txt
    ```
 3. Run the Streamlit app:
    ```bash
-   streamlit run Churn_Predictor.py
+   streamlit run 00_🚪_Gateway.py
    ```
 
 For a smooth setup, ensure all dependencies are correctly installed.
@@ -124,8 +124,8 @@ The app is organized into several key sections:
 ## Contact Information
 ### Need Help?
 For support, collaboration, or any inquiries, please contact us at:
-- **Email**: [sdi@azubiafrica.com](mailto:sdi@azubiafrica.com)
-- **GitHub**: [Churn Predictor App Repository](https://github.com/Nfayem/Churn_Predictor.git)
+- **Email**: [moriah.asare@azubiafrica.com](mailto:moriah.asare@azubiafrica.com)
+- **GitHub**: [Churn Predictor App Repository](https://github.com/Moriahasare/Telco_Churn_Predictor.git)
 
 ## Meet the Team
 We are a dedicated team of data science professionals from the Azubi-Africa Data Analytics Program, working together to deliver impactful insights through the Churn Predictor App.
@@ -141,16 +141,22 @@ We are a dedicated team of data science professionals from the Azubi-Africa Data
 | **Obed Korda**                                                                    | **Godfred Frank Aning**                                                                    | **Victor Obondo**                                                                    |
 | Customer Churn Analyst                                                            | Data Visualization Specialist                                                              | Database Manager                                                                     |
 
+
+| <img src="./assets/team_member_7.jpg" alt="Moriah Asare" width="200" height="300"> |
+|:---------------------------------------------------------------------------------:|
+| **Moriah Asare**                                                                    |
+| Data Analyst                                                             |
+
 ### Our Mission
 We aim to drive insights and impact through collaborative projects and cutting-edge analytics. Join us in leveraging data for meaningful advancements! 🌍📈
 
 
 ## Contributing
-We welcome contributions from the community! Please read our [Contributing Guide](https://github.com/Nfayem/Churn_Predictor/blob/DevOps/CONTRIBUTING.md) for more information on how to get involved.
+We welcome contributions from the community! Please read our [Contributing Guide](https://github.com/Moriahasare/Telco_Churn_Predictor/blob/main/CONTRIBUTING.md) for more information on how to get involved.
 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Nfayem/Churn_Predictor/blob/DevOps/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Moriahasare/Telco_Churn_Predictor/blob/main/LICENSE) file for details.
 
 ## Development Workflow:
 

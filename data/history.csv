@@ -5,3 +5,4 @@ Male,No,Yes,No,0.0,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed
 Male,No,Yes,No,3.0,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,150.0,450.0,2024-09-07,Random Forest,No,61.85
 Male,No,Yes,No,0.0,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,0.0,0.0,2024-09-07,GBoost,No,81.72
 Male,No,Yes,No,5.0,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,0.0,0.0,2024-09-07,XGBoost,Yes,70.2
+Male,No,Yes,No,0.0,Yes,Yes,DSL,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Mailed check,0.0,0.0,2024-09-15,Random Forest,No,61.85
